@@ -1,0 +1,276 @@
+* {
+    font-family: 'Mulish', sans-serif;
+    padding: 0;
+}
+
+.site-name {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.Travels {
+    color: #FF5400;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.none {
+    display: none;
+}
+
+.banner {
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    margin: 50px auto;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    width: 800px;
+    margin: 0 auto;
+    gap: 24px;
+
+
+}
+
+.banner h1 {
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.banner p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.nazmul {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 10px;
+    border: none;
+
+}
+
+.banner-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    border: none;
+}
+
+.Travel h1,
+p {
+    text-align: center;
+
+
+}
+
+.Travel h1 {
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.Hmap {
+    display: flex;
+
+
+}
+
+#hotel {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin: 10px;
+    height: 250px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: left;
+
+
+}
+
+#map {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    margin: 10px;
+    height: 250px;
+    padding-left: 30px;
+    padding-right: 20px;
+    
+
+}
+
+#price {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    margin: 0 auto;
+    height: 250px;
+    padding-left: 30px;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.Tags {
+    display: flex;
+
+}
+
+.Tags-button {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    margin-top: 10px;
+    color: white;
+}
+.btn {
+    display: flex;
+    margin-top: 60px;
+}
+.btns {
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+
+.video iframe {
+    border-radius: 20px;
+    margin-left: 40px;
+}
+.img-div{
+    text-align: center;
+    background-color: #FF5400;
+    height: 80px;
+    width: 150px;
+    border-radius: 10px;
+    position: absolute;
+    transform: rotate(-19.628deg);
+    right: 290px;
+    top: 2729px;
+}
+
+ 
+
+.travels {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+background: rgba(19, 19, 24, 0.05);
+margin-top: 40px;}
+.footer i{
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+}
+.hr-2 {
+    color: #000;
+    width: 872px;
+height: 1px;
+}
+
+
+
+
+
+
+
+.News {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border: 2px solid orange;
+}
+
+.news-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.News input,.class{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.class {
+    background-color: #FF5400;
+}
+.css img{
+    display: inline;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: none;
+    }
+
+    .none {
+        display: block;
+    }
+
+    .container {
+        width: 340px;
+        margin: 0 auto;
+    }
+}
